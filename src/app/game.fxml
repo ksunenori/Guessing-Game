@@ -68,7 +68,7 @@
     <!--Game-->
     <GridPane fx:id="gameDisplay" AnchorPane.topAnchor="260" AnchorPane.leftAnchor="0" visible="false">
         <!--Text-->
-        <Label text="Guess the number or we'll steal your treasure!" GridPane.columnIndex="1" GridPane.rowIndex="0">
+        <Label text="Guess the number from 1-100 to open the treasure!" GridPane.columnIndex="1" GridPane.rowIndex="0">
             <wrapText>
                 <Boolean fx:value="true"/>
             </wrapText>

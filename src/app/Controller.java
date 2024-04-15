@@ -118,13 +118,16 @@ public class Controller {
 
             if (userGuess == numGuess) {
                 // Display winner screen
-                backgroundImage.setImage(new Image(getClass().getResourceAsStream("/resources/congraulations.png")));
+                backgroundImage.setImage(new Image(getClass().getResourceAsStream("/resources/congratulations.png")));
 
                 // Hide game display
                 gameDisplay.setVisible(false);
 
                 // Show retry button
                 retryBtn.setVisible(true);
+
+                // Show main menu button
+                mainMenuBtn.setVisible(true);
             } else {
                 // Decrease chance counter if user fails and updates label
                 chanceCounter--;
